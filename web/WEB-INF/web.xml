@@ -1,0 +1,11 @@
+<web-app>
+     <!--mapeo del segundo servlet: formulario -->
+      <servlet>
+        <servlet-name>servletCalculadora</servlet-name>
+        <servlet-class>servletHTML.servletCalculadora</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>servletCalculadora</servlet-name>
+        <url-pattern>/servletCalculadora</url-pattern>
+    </servlet-mapping>
+</web-app>

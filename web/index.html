@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculadora con Servlet</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+    <center>
+        <form method="post" action='servletCalculadora'>
+            <p>Pon los numeros que quieras</p><BR>
+            <input type=text name=num1 required placeholder="Num1">
+            <BR>
+            <input type=text name=num2 required placeholder="Num2">
+            <BR><BR>
+            <select id="opcion" name=opcion>
+            <option name=operaciones>operaciones</option>
+            <option name= suma>suma</option>
+            <option name= resta>resta</option>
+            <option name= multiplicacion>multiplicacion</option>
+            <option name= division>division</option>
+           </select>
+            <BR>
+            <BR>
+            <input type=submit value="calcula">
+        </form>
+    </center>
+</body>
+</html>
